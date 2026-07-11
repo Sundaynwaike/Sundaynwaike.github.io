@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website of Sunday Nwaike (Glorious Voice Ambassador) – Nigerian gospel singer, songwriter, and worship leader. Stream gospel music, watch videos, and read his biography.">
+  <meta name="keywords" content="Sunday Nwaike, Glorious Voice Ambassador, gospel music, Nigerian gospel singer, worship leader, Ulom Di Nigwe, The Lord My Salvation, Melody, Abia State">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sundaynwaike.github.io">
+  <meta property="og:title" content="Sunday Nwaike (Glorious Voice Ambassador) | Official Website">
+  <meta property="og:description" content="Gospel singer, songwriter & worship leader from Nigeria.">
+  <meta property="og:url" content="https://sundaynwaike.github.io">
+  <title>Sunday Nwaike (Glorious Voice Ambassador) | Official Gospel Music</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Segoe UI',Arial,sans-serif;background:#0a0a0a;color:#e0e0e0;line-height:1.7;min-height:100vh;display:flex;flex-direction:column}
+    header{background:#0d0d0d;border-bottom:2px solid #b8860b;padding:1rem 1.5rem;position:sticky;top:0;z-index:1000;box-shadow:0 4px 20px rgba(0,0,0,0.8)}
+    .header-inner{max-width:1300px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}
+    .logo{display:flex;align-items:center;gap:0.6rem}
+    .logo i{font-size:1.8rem;color:#b8860b}
+    .logo-text h1{font-size:1.1rem;font-weight:700;color:#f0e68c;letter-spacing:1px}
+    .logo-text span{font-size:0.7rem;color:#b8860b;letter-spacing:2px;text-transform:uppercase}
+    .nav-links{display:flex;gap:1.2rem;list-style:none;flex-wrap:wrap}
+    .nav-links a{color:#ccc;text-decoration:none;font-weight:500;font-size:0.85rem;text-transform:uppercase;letter-spacing:1px;display:flex;align-items:center;gap:0.3rem;padding:0.3rem 0;border-bottom:2px solid transparent}
+    .nav-links a:hover{color:#b8860b;border-bottom-color:#b8860b}
+    .container{max-width:1200px;margin:2rem auto;padding:0 1rem;flex:1}
+    .section-title{font-size:1.8rem;margin-bottom:1.5rem;font-weight:700;color:#f0e68c;border-left:5px solid #b8860b;padding-left:1rem;text-transform:uppercase;letter-spacing:2px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.2rem;margin-bottom:2.5rem}
+    .card{background:#141414;border:1px solid #2a2a2a;border-radius:8px;overflow:hidden;transition:0.3s;display:flex;flex-direction:column}
+    .card:hover{border-color:#b8860b;box-shadow:0 8px 25px rgba(184,134,11,0.15);transform:translateY(-2px)}
+    .card-audio{background:#0d0d0d;padding:0.8rem;border-bottom:1px solid #2a2a2a}
+    .card-audio audio{width:100%;height:32px}
+    .card-info{padding:0.8rem 1rem;flex:1}
+    .card-info h3{font-size:0.95rem;color:#f0e68c;margin-bottom:0.2rem}
+    .card-info p{font-size:0.75rem;color:#999}
+    .tag{display:inline-block;background:#b8860b22;color:#b8860b;padding:0.15rem 0.6rem;border-radius:20px;font-size:0.65rem;text-transform:uppercase;letter-spacing:1px;border:1px solid #b8860b44;margin-top:0.3rem}
+    .video-card{background:#141414;border:1px solid #2a2a2a;border-radius:8px;overflow:hidden;transition:0.3s}
+    .video-card:hover{border-color:#b8860b}
+    .video-wrapper{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
+    .video-wrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:none}
+    .video-info{padding:0.8rem 1rem}
+    .video-info h3{font-size:0.9rem;color:#f0e68c}
+    .bio-section{background:#141414;border:1px solid #2a2a2a;border-radius:10px;padding:2rem;display:flex;flex-wrap:wrap;gap:2rem;align-items:flex-start;margin-bottom:2.5rem}
+    .bio-icon{flex:0 0 120px;height:120px;background:linear-gradient(135deg,#1a1a1a,#0d0d0d);border-radius:50%;display:flex;align-items:center;justify-content:center;border:3px solid #b8860b;box-shadow:0 0 25px rgba(184,134,11,0.25)}
+    .bio-icon i{font-size:3rem;color:#b8860b}
+    .bio-text{flex:1;min-width:240px}
+    .bio-text h2{font-size:1.8rem;color:#f0e68c;margin-bottom:0.2rem}
+    .bio-text .stage-name{color:#b8860b;font-size:1rem;margin-bottom:1.2rem;letter-spacing:2px}
+    .bio-text p{margin-bottom:0.8rem;color:#ccc;font-size:0.9rem}
+    .bio-details{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:0.6rem;margin-top:1.2rem;background:#0d0d0d;padding:1.2rem;border-radius:8px;border:1px solid #2a2a2a}
+    .bio-detail-item{display:flex;gap:0.4rem;align-items:baseline;font-size:0.8rem}
+    .bio-detail-item strong{color:#b8860b;min-width:70px}
+    .mission-vision{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem;margin-bottom:2.5rem}
+    .mv-card{background:#141414;border:1px solid #2a2a2a;border-radius:8px;padding:1.5rem;border-top:3px solid #b8860b}
+    .mv-card h3{color:#f0e68c;margin-bottom:0.8rem;font-size:1.1rem}
+    .mv-card p{color:#bbb;font-size:0.9rem}
+    .scripture{font-style:italic;color:#b8860b;text-align:center;padding:1rem;border-top:1px solid #2a2a2a;font-size:1rem}
+    footer{background:#0d0d0d;border-top:2px solid #b8860b;text-align:center;padding:1.5rem;color:#999;margin-top:2rem}
+    footer .verse{color:#b8860b;font-style:italic;margin-bottom:0.8rem;font-size:1rem}
+    .social-links{display:flex;justify-content:center;gap:1.2rem;margin:0.8rem 0}
+    .social-links a{color:#ccc;font-size:1.3rem;transition:0.3s}
+    .social-links a:hover{color:#b8860b}
+    @media(max-width:768px){.header-inner{flex-direction:column;gap:0.8rem;text-align:center}.nav-links{gap:0.8rem;justify-content:center}.bio-section{flex-direction:column;align-items:center;text-align:center}.bio-details{text-align:left}.section-title{font-size:1.4rem}}
+    ::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:#0a0a0a}::-webkit-scrollbar-thumb{background:#b8860b;border-radius:3px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="logo"><i class="fas fa-cross"></i><div class="logo-text"><h1>SUNDAY NWAIKE</h1><span>Glorious Voice Ambassador</span></div></div>
+      <ul class="nav-links">
+        <li><a href="#music"><i class="fas fa-music"></i> Music</a></li>
+        <li><a href="#videos"><i class="fas fa-video"></i> Videos</a></li>
+        <li><a href="#bio"><i class="fas fa-user"></i> Biography</a></li>
+        <li><a href="#mission"><i class="fas fa-flag"></i> Mission</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="container">
+    <section id="music">
+      <h2 class="section-title"><i class="fas fa-headphones"></i> Gospel Music</h2>
+      <p style="margin-bottom:1.2rem;color:#999;font-size:0.9rem;">Spirit-filled songs by Sunday Nwaike (Glorious Voice Ambassador)</p>
+      <div class="grid" id="songs-container"></div>
+    </section>
+    <section id="videos">
+      <h2 class="section-title"><i class="fas fa-play-circle"></i> Official Videos</h2>
+      <div class="grid" id="videos-container"></div>
+    </section>
+    <section id="bio">
+      <h2 class="section-title"><i class="fas fa-book-open"></i> Biography</h2>
+      <div class="bio-section">
+        <div class="bio-icon"><i class="fas fa-microphone-alt"></i></div>
+        <div class="bio-text">
+          <h2>Sunday Nwaike</h2>
+          <p class="stage-name">GLORIOUS VOICE AMBASSADOR</p>
+          <p>Sunday Nwaike, professionally known as <strong>Glorious Voice Ambassador</strong>, is a Nigerian gospel singer, songwriter, worship leader, and gospel minister dedicated to proclaiming the Gospel of Jesus Christ through music. Born on 25 May 1975, he hails from Uturu, Isuikwuato Local Government Area, Abia State, Nigeria.</p>
+          <p>He began his music ministry in 1997 after receiving a clear calling to use his God-given voice to glorify God and minister to people through worship and gospel music. His songs inspire faith, encourage believers, and lead people into a deeper relationship with Jesus Christ.</p>
+          <div class="bio-details">
+            <div class="bio-detail-item"><strong>Full Name:</strong> Sunday Nwaike</div>
+            <div class="bio-detail-item"><strong>Stage Name:</strong> Glorious Voice Ambassador</div>
+            <div class="bio-detail-item"><strong>Born:</strong> 25 May 1975</div>
+            <div class="bio-detail-item"><strong>Origin:</strong> Uturu, Isuikwuato LGA, Abia State</div>
+            <div class="bio-detail-item"><strong>Nationality:</strong> Nigerian</div>
+            <div class="bio-detail-item"><strong>Ministry Began:</strong> 1997</div>
+            <div class="bio-detail-item"><strong>Genre:</strong> Gospel, Worship, Praise</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="mission">
+      <h2 class="section-title"><i class="fas fa-flag"></i> Mission & Vision</h2>
+      <div class="mission-vision">
+        <div class="mv-card"><h3><i class="fas fa-bullseye"></i> Our Mission</h3><p>To proclaim the Gospel of Jesus Christ through spirit-filled music, leading people into true worship, strengthening believers in their faith, and bringing hope, healing, salvation, and encouragement to people across the world.</p></div>
+        <div class="mv-card"><h3><i class="fas fa-eye"></i> Our Vision</h3><p>To become a globally recognized gospel music ministry whose songs inspire heartfelt worship, transform lives through the power of the Holy Spirit, and bring glory to God while drawing countless souls into a closer relationship with Jesus Christ.</p></div>
+      </div>
+      <p class="scripture"><i class="fas fa-bible"></i> "Let everything that has breath praise the Lord." – Psalm 150:6</p>
+    </section>
+  </div>
+  <footer>
+    <p class="verse">"Let everything that has breath praise the Lord." – Psalm 150:6</p>
+    <div class="social-links">
+      <a href="https://youtube.com/@gloriousvoiceambassador" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>© 2025 <strong style="color:#b8860b;">Sunday Nwaike (Glorious Voice Ambassador)</strong> · All Rights Reserved</p>
+    <p style="font-size:0.7rem;margin-top:0.4rem;">Uturu, Isuikwuato LGA, Abia State, Nigeria</p>
+  </footer>
+  <script>
+    const songs=[{title:"I ma nma diri gi",file:"I_ma_nma_diri_gi_audio_(128k).mp3"},{title:"I Want to Make Heaven",file:"I_want_to_make_heaven_Audio_(128k).mp3"},{title:"Odighi Onye Dika Chineke",file:"Odighi_onye_dika_chineke_Audio_(128k).mp3"},{title:"Father in Heaven",file:"father_in_heaven_Audio_(128k).mp3"},{title:"The Lord My Salvation",file:"The_Lord_my_salvation_Audio_(128k).mp3"},{title:"Ewa Dupe Lowo Olorun",file:"Ewa_dupe_lowo_olorun_audio_(128k).mp3"},{title:"Oneme Nma",file:"oneme_nma_Audio_(128k).mp3"},{title:"Onward We Go",file:"onward_we_go_Audio_(128k).mp3"},{title:"Onweghi Onye Gegbochi",file:"onweghi_onye_gegbochi_Audio_(128k).mp3"},{title:"Ejim Akwa",file:"Ejim_akwa_Audio_(128k).mp3"},{title:"Melody",file:"Melody__Audio_(128k).mp3"},{title:"Enyi Omam Bu Jesus",file:"Enyi_omam_bu_Jesus_Audio_(128k).mp3"},{title:"Obu Eze",file:"obu_eze_audio_(128k).mp3"},{title:"Bia Mere Onwegi Aha",file:"Bia_mere_onwegi_aha_audio_(128k).mp3"},{title:"Lee Ya Kona Bia",file:"Lee_ya_kona_bia_Audio_(128k).mp3"},{title:"Ulom Di Nigwe",file:"ulom_Di_nigwe_Audio_(128k).mp3"},{title:"Onye Nwem Jesus Nabia",file:"onye_nwem_Jesus_nabia_Audio_(128k).mp3"},{title:"Abum Ogaranya",file:"Abum_ogaranya_Audio_(128k).mp3"},{title:"Obu Okaka",file:"obu_okaka_Audio_(128k).mp3"},{title:"Anam Anuri Onu",file:"Anam_anuri_onu_Audio_(128k).mp3"},{title:"Mguko Olu Oma",file:"mguko_olu_oma_Audio_(128k).mp3"},{title:"Kanyi Kelenu Chineke",file:"kanyi_kelenu_chineke_Audio_(128k).mp3"},{title:"Onye Neme Nma",file:"onye_neme_nma_Audio_(128k).mp3"}];
+    const videos=[{title:"Video 1",videoId:"jZz7cgRG-yA"},{title:"Video 2",videoId:"m9GfXScIdCA"},{title:"Video 3",videoId:"YcHah5zvPxo"},{title:"Video 4",videoId:"tYIvo70vbr8"},{title:"Video 5",videoId:"vuck5MV9Fv4"},{title:"Video 6",videoId:"9nGTUaS5RNM"},{title:"Video 7",videoId:"Y7qqKCPuv-4"},{title:"Video 8",videoId:"KcbrckKKyIM"}];
+    const sc=document.getElementById('songs-container');
+    songs.forEach((s,i)=>{const c=document.createElement('div');c.className='card';c.innerHTML=`<div class="card-audio"><audio controls preload="none"><source src="music/${s.file}" type="audio/mpeg"></audio></div><div class="card-info"><h3>${i+1}. ${s.title}</h3><span class="tag"><i class="fas fa-music"></i> Gospel</span></div>`;sc.appendChild(c)});
+    const vc=document.getElementById('videos-container');
+    videos.forEach((v,i)=>{const c=document.createElement('div');c.className='video-card';c.innerHTML=`<div class="video-wrapper"><iframe src="https://www.youtube.com/embed/${v.videoId}" allowfullscreen></iframe></div><div class="video-info"><h3>${i+1}. ${v.title}</h3></div>`;vc.appendChild(c)});
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){const h=this.getAttribute('href');if(h!=="#"){e.preventDefault();const t=document.getElementById(h.substring(1));if(t)t.scrollIntoView({behavior:'smooth',block:'start'})}})});
+    console.log('Sunday Nwaike website ready! Upload MP3 files to the music folder.');
+  </script>
+</body>
+  </html>
